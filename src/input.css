@@ -74,37 +74,37 @@
     }
 
     .category-banner__item-five {
-        background-image: url("/public/images/banner/headphone-banner.png");
+        background-image: url("../images/banner/headphone-banner.png");
         background-size: cover;
         background-position: center;
     }
 
     .category-banner__item-six {
-        background-image: url("/public/images/banner/smart-watch-banner.png");
+        background-image: url("../images/banner/smart-watch-banner.png");
         background-size: cover;
         background-position: center;
     }
 
     .category-banner__item-one {
-        background-image: url("/public/images/banner/mobile-banner.png");
+        background-image: url("../images/banner/mobile-banner.png");
         background-size: cover;
         background-position: center;
     }
 
     .category-banner__item-two {
-        background-image: url("/public/images/banner/console-banner.png");
+        background-image: url("../images/banner/console-banner.png");
         background-size: cover;
         background-position: center;
     }
 
     .category-banner__item-three {
-        background-image: url("/public/images/banner/laptop-banner.png");
+        background-image: url("../images/banner/laptop-banner.png");
         background-size: cover;
         background-position: center;
     }
 
     .category-banner__item-four {
-        background-image: url("/public/images/banner/manitor-banner.png");
+        background-image: url("../images/banner/manitor-banner.png");
         background-size: cover;
         background-position: center;
     }
