@@ -356,9 +356,7 @@
                                     <use href="#phone"></use>
                                 </svg>
                             </span>
-                            <span
-                                class="flex gap-1 pointer-events-none"
-                            >
+                            <span class="flex gap-1 pointer-events-none">
                                 rostamiDev2002@gmail.com
                                 <svg class="w-4 h-4">
                                     <use href="#email"></use>
@@ -1376,7 +1374,8 @@
                             <div
                                 class="group z-20 relative h-20 flex items-center justify-center"
                             >
-                                <a href="basket.html"
+                                <a
+                                    href="basket.html"
                                     class="flex items-center justify-center p-1 xl:p-2.5 relative hover:text-red-600 transition-colors cursor-pointer"
                                 >
                                     <svg class="w-6 h-6">
@@ -1401,11 +1400,13 @@
                                             <div
                                                 class="flex flex-col items-start gap-4"
                                             >
-                                                <a href="product-info.html"
+                                                <a
+                                                    href="product-info.html"
                                                     class="line-clamp-2 font-IRANSansX-Medium h-12 hover:text-red-600 transition-colors"
                                                 >
-                                            لپ تاپ 15.6 اینچی ایسوس مدل Vivobook
-                                            X1502ZA-EJ1426-i5 12500H 8GB 512SSD
+                                                    لپ تاپ 15.6 اینچی ایسوس مدل
+                                                    Vivobook X1502ZA-EJ1426-i5
+                                                    12500H 8GB 512SSD
                                                 </a>
                                                 <div
                                                     class="flex justify-between items-end w-full"
@@ -1477,11 +1478,13 @@
                                             <div
                                                 class="flex flex-col items-start gap-4"
                                             >
-                                                <a href="product-info.html"
+                                                <a
+                                                    href="product-info.html"
                                                     class="line-clamp-2 font-IRANSansX-Medium h-12 hover:text-red-600 transition-colors"
                                                 >
-                                                لپ تاپ 15.6 اینچی ایسوس مدل Vivobook
-                                                X1502ZA-EJ1426-i5 12500H 8GB 512SSD
+                                                    لپ تاپ 15.6 اینچی ایسوس مدل
+                                                    Vivobook X1502ZA-EJ1426-i5
+                                                    12500H 8GB 512SSD
                                                 </a>
                                                 <div
                                                     class="flex justify-between items-end w-full"
@@ -1546,11 +1549,13 @@
                                             <div
                                                 class="flex flex-col items-start gap-4"
                                             >
-                                                <a href="product-info.html"
+                                                <a
+                                                    href="product-info.html"
                                                     class="line-clamp-2 font-IRANSansX-Medium h-12 hover:text-red-600 transition-colors"
                                                 >
-                                                لپ تاپ 15.6 اینچی ایسوس مدل Vivobook
-                                                X1502ZA-EJ1426-i5 12500H 8GB 512SSD
+                                                    لپ تاپ 15.6 اینچی ایسوس مدل
+                                                    Vivobook X1502ZA-EJ1426-i5
+                                                    12500H 8GB 512SSD
                                                 </a>
                                                 <div
                                                     class="flex justify-between items-end w-full"
@@ -1623,7 +1628,8 @@
                                 href="register.html"
                                 class="flex items-center justify-center xl:h-12 xl:border xl:border-white/40 xl:rounded px-1 xl:px-2.5 xl:gap-3 hover:text-red-600 xl:hover:text-white xl:hover:bg-red-700 xl:hover:border-red-700 transition-colors"
                             >
-                                <span class="hidden xl:inline-block font-IRANSansX-Medium"
+                                <span
+                                    class="hidden xl:inline-block font-IRANSansX-Medium"
                                     >ورود | ثبت نام</span
                                 >
                                 <svg class="w-6 h-6">
@@ -2269,6 +2275,24 @@
             </div>
         </footer>
 
+        <!-- Page Loader -->
+
+        <div
+            id="preloader"
+            class="fixed inset-0 bg-black/90 flex items-center justify-center z-50"
+        >
+            <div
+                class="w-16 h-16 border-8 border-blue-500 border-dashed rounded-full animate-spin"
+            ></div>
+        </div>
+
         <script src="./js/share.js"></script>
+        <script>
+            window.onload = function () {
+                const preloader = document.getElementById("preloader");
+                // مخفی کردن لودر
+                preloader.style.display = "none";
+            };
+        </script>
     </body>
 </html>

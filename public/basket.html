@@ -2596,6 +2596,24 @@
             </div>
         </footer>
 
+        <!-- Page Loader -->
+
+        <div
+            id="preloader"
+            class="fixed inset-0 bg-black/90 flex items-center justify-center z-50"
+        >
+            <div
+                class="w-16 h-16 border-8 border-blue-500 border-dashed rounded-full animate-spin"
+            ></div>
+        </div>
+
         <script src="./js/share.js"></script>
+        <script>
+            window.onload = function () {
+                const preloader = document.getElementById("preloader");
+                // مخفی کردن لودر
+                preloader.style.display = "none";
+            };
+        </script>
     </body>
 </html>
