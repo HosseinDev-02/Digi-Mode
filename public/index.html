@@ -4194,10 +4194,17 @@
         <script>
             AOS.init();
             window.onload = function () {
-                const preloader = document.getElementById("preloader");
-                // مخفی کردن لودر
-                preloader.style.display = "none";
-            };
+        // مخفی کردن لودر
+        preloader.style.display = "none";
+        console.log("window loaded");
+    };
+    document.addEventListener("DOMContentLoaded", () => {
+        preloader.style.display = "none";
+        console.log("dom content loaded !");
+    });
+
+    // fallback بعد از 5 ثانیه
+    const timer = setTimeout(() => (preloader.style.display = "none"), 5000);
         </script>
     </body>
 </html>
