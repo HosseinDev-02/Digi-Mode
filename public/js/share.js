@@ -17,6 +17,10 @@ window.addEventListener("load", () => {
     const mobileBasketCloseBtn = document.querySelector(
         "#mobile-basket-close-btn"
     );
+    const newsletterForm = document.getElementById("newsletter-form");
+    newsletterForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+    });
 
     mobileSubmenuBtn.addEventListener("click", (e) => {
         e.preventDefault();

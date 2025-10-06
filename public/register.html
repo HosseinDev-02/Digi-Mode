@@ -2032,7 +2032,7 @@
                     <div
                         class="flex flex-col justify-center bg-white shadow-0 rounded p-4 max-w-none sm:max-w-[350px] w-full mx-auto"
                     >
-                        <form class="block" action="#">
+                        <form id="register-form" class="block" action="#">
                             <h5
                                 class="font-IRANSansX-Bold text-lg md:text-xl mb-4 md:mb-6 text-center"
                             >
@@ -2233,7 +2233,7 @@
                             برای اطلاع از جدیدترین محصولات و اخرین تخفیف ها عضو
                             خبرنامه ما بشید
                         </h6>
-                        <form action="#" class="flex items-center gap-2 h-10">
+                        <form id="newsletter-form" action="#" class="flex items-center gap-2 h-10">
                             <input
                                 type="email"
                                 class="w-full h-full outline-none px-2 bg-gray-900 text-xs md:text-sm text-gray-100 border rounded border-white/30"
@@ -2309,6 +2309,10 @@
 
         <script src="./js/share.js"></script>
         <script>
+            const registerForm = document.getElementById('register-form')
+            registerForm.addEventListener('submit', (e) => {
+                e.preventDefault()
+            })
             // fallback بعد از 5 ثانیه
             const timer = setTimeout(
                 () => (preloader.style.display = "none"),

@@ -8,6 +8,7 @@ window.addEventListener("load", () => {
     const productReview = document.querySelector('.product-review');
     const productCommentsBtn = document.querySelector('#product-comments-btn')
     const productComment = document.querySelector('.product-comments')
+    const productCommentForm = document.getElementById("product-comment-form")
 
     let showDescBtnContent = `<span>
     مشاهده بیشتر
@@ -109,4 +110,8 @@ window.addEventListener("load", () => {
             },
         },
     });
+
+    productCommentForm.addEventListener('submit', (e) => {
+        e.preventDefault()
+    })
 });
