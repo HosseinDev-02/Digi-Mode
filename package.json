@@ -6,6 +6,6 @@
     "express": "^4.19.2"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css --watch"
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/styles/app.css --minify"
   }
 }
