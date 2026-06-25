@@ -67,24 +67,12 @@ http://localhost:5173
 public
 ├── fonts
 ├── images
-├── manifest.json
-└── robots.txt
+├── js
+├── styles
+└── vendor
 
 src
-├── Components
-├── custom-styleSheet
-├── Pages
-├── Utils
-├── App.css
-├── App.js
-├── Custom.css
-├── data.js
-├── reportWebVitals.js
-├── index.css
-├── index.js
-├── setupTests.js
-└── routes.js
-└── Symbols.jsx
+└── input.css
 ```
 
 ## Live Demo
